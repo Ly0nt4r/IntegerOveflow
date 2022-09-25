@@ -30,10 +30,13 @@ Aqui es donde entra el problema del desbordamiento.
 
 Imaginemos que intentamos comprar un producto muy caro en una pagina web (un rolex de diamantes por ejemplo 😧), y el código no está sanetizado para evitar desbordamientos.
 
-
-![image](https://user-images.githubusercontent.com/87484792/192158059-6234c711-111a-410b-963c-82d2504d9f81.png)
+![image](https://user-images.githubusercontent.com/87484792/192158589-150cab70-6191-4b13-bc66-bb200b02a151.png)
 
 *El código es un poco caca, lo sé, no lo tengais en cuenta :3*
 
- *¿Podemos intentar conseguirlo... gratis?*
+## Explotación
+
+Actualmente tenemos una página web supuestamente vulnerable. No hay comprobación de ningún tipo y nuestro objetivo es llevarnos ese rolex gratis.
+La idea es sobrepasar la capacidad máxima de un entero (**2147483647**)
+
 
