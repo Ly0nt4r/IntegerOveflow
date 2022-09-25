@@ -45,7 +45,7 @@ El reloj tiene un valor de 13.578€, lo que nos daría un margen de 2.147.470.0
 
 ![image](https://user-images.githubusercontent.com/87484792/192159598-1582a72a-dd84-4a1c-bb1a-d09461281730.png)
 
-¡Vaya! hemos conseguido desbordar el entero, el problema es que nos sale un número negativo (Nos deberian de pagar eso, cosa que no haran 😲)
+¡Vaya! hemos conseguido desbordar el entero, el problema es que nos sale un número negativo (Nos deberian de pagar eso, cosa que no harán 😲)
 La solución sería intentar entrar en la casuistica donde el valor es 0, dando así una "Compra Gratis". 
 
 ¿Como hacemos esto? analizemos un segundo lo que tenemos.
