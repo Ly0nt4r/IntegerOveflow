@@ -39,4 +39,6 @@ Imaginemos que intentamos comprar un producto muy caro en una pagina web (un rol
 Actualmente tenemos una página web supuestamente vulnerable. No hay comprobación de ningún tipo y nuestro objetivo es llevarnos ese rolex gratis.
 La idea es sobrepasar la capacidad máxima de un entero (**2147483647**)
 
+Usaré ese donativo intencionalmente puesto para la ocasión tal como en una pelicula de ficción donde el protagonista esta a punto de morir, pero no.
+
 
