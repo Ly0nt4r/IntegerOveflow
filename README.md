@@ -42,3 +42,9 @@ La idea es sobrepasar la capacidad máxima de un entero (**2147483647**)
 Usaré ese donativo intencionalmente puesto para la ocasión tal como en una pelicula de ficción donde el protagonista esta a punto de morir, pero no.
 
 El reloj tiene un valor de 13.578€, lo que nos daría un margen de 2.147.470.069€. Añadiremos esa cantidad (+1) como donativo para ver que sucede.  (Menudo donativo más jugoso)
+
+![image](https://user-images.githubusercontent.com/87484792/192158811-c1cce0ae-83ad-4b51-8708-ebe551c002df.png)
+
+¡Vaya! hemos conseguido desbordar el entero, el problema es que nos sale un número negativo (Nos deberian de pagar eso, cosa que no haran 😲)
+La solución sería intentar entrar en la casuistica donde el valor es 0, dando así una "Compra Gratis". 
+
