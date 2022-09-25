@@ -17,3 +17,11 @@ En la arquitectura x86 una variable tipo int permite almacenar valores de 32 bit
 
 
 Así pues, el mayor valor positivo de 32 bits que puede almacenar una variable entera en complemento a 2 es 0x7fffffff, que en binario es 01111111111111111111111111111111 y en decimal 2147483647.
+
+
+## Vulnerabilidad
+
+La vulnerabilidad reside en el aumento de este número entero maximo, provocando una des-secuenciación de su tamaño completo.
+En otras palabras...¿Que pasa si intentamos sumarle a este entero maximo un entero positivo más?  Ej: *2147483647+1*
+
+Aqui es donde entra el problema del desbordamiento. 
