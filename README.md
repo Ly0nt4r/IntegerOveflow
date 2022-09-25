@@ -33,6 +33,7 @@ Imaginemos que intentamos comprar un producto muy caro en una pagina web (un rol
 
 ![image](https://user-images.githubusercontent.com/87484792/192158059-6234c711-111a-410b-963c-82d2504d9f81.png)
 
-`El código es un poco caca, lo sé, no lo tengais en cuenta :3`
+*El código es un poco caca, lo sé, no lo tengais en cuenta :3*
+
  *¿Podemos intentar conseguirlo... gratis?*
 
