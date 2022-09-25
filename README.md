@@ -55,4 +55,14 @@ Al sumar el valor en su mismo valor, obtendremos: "4294967294", que en binario e
 
 En realidad tenemos 100000000000000000000000000000000, que es un valor de 33 bits, pero como sólo podemos almacenar 32 en la variable, el bit más significativo (el 1) se descarta y nos queda 00000000000000000000000000000000. 
 
+![image](https://user-images.githubusercontent.com/87484792/192159807-af750dca-f173-43db-a867-da0347953fd2.png)
+
+¡Conseguido!. La compra nos ha salido gratis. 
+- De primeras hemos hecho un donativo de la cantidad restante entre el valor maximo de un entero, y el coste del reloj.
+- Seguidamente hemos hecho otro donativo del valor maximo de un entero
+- Finalmente hemos añadido +2 para sobrepasar los 32 bits asignados a un entero en memoria.
+
+Y con esto tendriamos, tendriamos completado un desbordamiento de enteros. Espero que os haya gustado y servido de ayuda. Muchas gracias :)
+FD: Ly0nt4r
+
 
