@@ -30,7 +30,7 @@ Aqui es donde entra el problema del desbordamiento.
 
 Imaginemos que intentamos comprar un producto muy caro en una pagina web (un rolex de diamantes por ejemplo 😧), y el código no está sanetizado para evitar desbordamientos.
 
-![image](https://user-images.githubusercontent.com/87484792/192158589-150cab70-6191-4b13-bc66-bb200b02a151.png)
+![image](https://user-images.githubusercontent.com/87484792/192159407-e7422ff4-77c8-4cae-8e53-05a9862238af.png)
 
 *El código es un poco caca, lo sé, no lo tengais en cuenta :3*
 
