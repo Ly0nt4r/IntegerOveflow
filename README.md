@@ -41,4 +41,4 @@ La idea es sobrepasar la capacidad máxima de un entero (**2147483647**)
 
 Usaré ese donativo intencionalmente puesto para la ocasión tal como en una pelicula de ficción donde el protagonista esta a punto de morir, pero no.
 
-
+El reloj tiene un valor de 13.578€, lo que nos daría un margen de 2.147.470.069€. Añadiremos esa cantidad como donativo para ver que sucede.  (Menudo donativo más jugoso)
