@@ -24,4 +24,7 @@ Así pues, el mayor valor positivo de 32 bits que puede almacenar una variable e
 La vulnerabilidad reside en el aumento de este número entero maximo, provocando una des-secuenciación de su tamaño completo.
 En otras palabras...¿Que pasa si intentamos sumarle a este entero maximo un entero positivo más?  Ej: *2147483647+1*
 
+Si ahora sumamos 1 a este valor, obtendremos 0x80000000 que en binario es 10000000000000000000000000000000. Como tiene el bit más significativo a 1, se interpreta como un valor negativo.
+
 Aqui es donde entra el problema del desbordamiento. 
+
