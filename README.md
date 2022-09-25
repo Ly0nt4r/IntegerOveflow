@@ -28,3 +28,11 @@ Si ahora sumamos 1 a este valor, obtendremos 0x80000000 que en binario es 100000
 
 Aqui es donde entra el problema del desbordamiento. 
 
+Imaginemos que intentamos comprar un producto muy caro en una pagina web (un rolex de diamantes por ejemplo 😧), y el código no está sanetizado para evitar desbordamientos.
+
+
+![image](https://user-images.githubusercontent.com/87484792/192158059-6234c711-111a-410b-963c-82d2504d9f81.png)
+
+
+ *¿Podemos intentar conseguirlo... gratis?*
+
