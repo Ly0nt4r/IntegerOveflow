@@ -51,7 +51,7 @@ La solución sería intentar entrar en la casuistica donde el valor es 0, dando 
 ¿Como hacemos esto? analizemos un segundo lo que tenemos.
 Por el momento el desbordamiento se ha producido, por lo que es vulnerable. 
 
-Al sumar el valor en su mismo valor, obtendremos: "4294967294", que en binario es 11111111111111111111111111111110 (0xFFFFFFFE). Si a este valor le sumamos 1 obtendremos 11111111111111111111111111111111 (0xFFFFFFFF) y si le volvemos a sumar 1 tendremos... ¡¿0?!
+Al sumar el valor maximo por su mismo valor, obtendremos: "4294967294", que en binario es 11111111111111111111111111111110 (0xFFFFFFFE). Si a este valor le sumamos 1 obtendremos 11111111111111111111111111111111 (0xFFFFFFFF) y si le volvemos a sumar 1 tendremos... ¡¿0?!
 
 En realidad tenemos 100000000000000000000000000000000, que es un valor de 33 bits, pero como sólo podemos almacenar 32 en la variable, el bit más significativo (el 1) se descarta y nos queda 00000000000000000000000000000000. 
 
