@@ -48,3 +48,11 @@ El reloj tiene un valor de 13.578€, lo que nos daría un margen de 2.147.470.0
 ¡Vaya! hemos conseguido desbordar el entero, el problema es que nos sale un número negativo (Nos deberian de pagar eso, cosa que no haran 😲)
 La solución sería intentar entrar en la casuistica donde el valor es 0, dando así una "Compra Gratis". 
 
+¿Como hacemos esto? analizemos un segundo lo que tenemos.
+Por el momento el desbordamiento se ha producido, por lo que es vulnerable. 
+
+Al sumar el valor en su mismo valor, obtendremos: "4294967294", que en binario es 11111111111111111111111111111110 (0xFFFFFFFE). Si a este valor le sumamos 1 obtendremos 11111111111111111111111111111111 (0xFFFFFFFF) y si le volvemos a sumar 1 tendremos... ¡¿0?!
+
+En realidad tenemos 100000000000000000000000000000000, que es un valor de 33 bits, pero como sólo podemos almacenar 32 en la variable, el bit más significativo (el 1) se descarta y nos queda 00000000000000000000000000000000. 
+
+
